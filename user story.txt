@@ -1,0 +1,91 @@
+
+*************************************************************************User Story*****************************************************************************
+                                       1_user : Gardien "Admin"
+can do : 
+
+login
+Get list of Users
+Get  List of all Advices
+Get list of Consultation
+Get List of the cats
+Add a new Keeper
+Edit a Keeper
+Delete any User (protector , healer )
+Delete any Event
+Delete any Consultation
+Delete any Advice
+Delete any Cat
+Delete any publication
+Get all the Publication
+
+
+                                        2_user : Keeper
+can do :
+
+Login 
+delete seeker
+GetEvent list of events
+Add new event 
+Edit event 
+Delete any event
+
+
+                                         3_user : Seeker
+can do :
+Login 
+Register 
+Get list of Event
+Get list of cat 
+                                       4_user : Healer
+can do :
+Login
+Register
+Add new Advice
+Edit Advice
+Delete Advice
+Add new Consultation 
+Edit Consultation
+DeleteConsultation
+Get Advice
+Get Consultation
+Get list of Cat only with danger condition
+
+
+
+
+                                       5_user : Protector
+can do :
+Login to app
+Register in the db of the app
+Add a Cat (lost or homeless)
+Edit Cat information
+Delete any Cat 
+Add new publication
+Delete new publication
+Edit publication
+Get all the pub
+Get cat list
+Get list of advice 
+Get List of Consultation
+
+********************************more info about actor*******************************************
+who's the :
+       gardien : the admin the one who control and delete any action or user
+
+       keeper : the little admin who keep every event under control to collect donation for cats
+	   
+	   Seeker or volunteer : the one who organise the event and seek  lost cat that have rewards or them
+	    
+	   Healer or veterinary : the one who provide free advice and consultation
+	   
+	   Protector : isthemain actor of the app , the one who report about cat lost or homeless and share pub about it 
+
+
+
+********************************more info about actions*******************************************
+every user can login to app 
+only protector can report and provide rewards
+only seeker can take rewards and participate to event to looking for cats
+
+**************************************************************************************************
+
